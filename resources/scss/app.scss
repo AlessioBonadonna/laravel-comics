@@ -26,3 +26,16 @@
         }
     }
 }
+
+#primofoo {
+    padding: 20px;
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    height: 60vh;
+    overflow-y: hidden;
+
+    .liste {
+        margin-top: 50px;
+        ;
+    }
+}
