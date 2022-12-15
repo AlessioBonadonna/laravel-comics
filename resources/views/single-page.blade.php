@@ -2,5 +2,5 @@
 @section('page-title', 'comics-singlepage')
 
 @section('content')
-    ciao sono la single page
+    <h1>sono il titolo di singel page </h1>
 @endsection
