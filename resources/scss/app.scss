@@ -3,7 +3,7 @@
 #jumbo {
     background-image: url(../images/jumbotron.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     position: relative;
 
     #current {
@@ -36,6 +36,14 @@
 
     .liste {
         margin-top: 50px;
-        ;
+
     }
+}
+
+.sign {
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #21252A;
+    border: 3px solid blue;
 }
