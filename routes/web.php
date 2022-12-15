@@ -21,6 +21,8 @@ Route::get('/single-page', function () {
     $comics = config('dc-comics');
     return view('single-page', compact('comics'));
 })->name('single-page');
+
+
 Route::get('/', function () {
     $comics = config('dc-comics');
     return view('home-page', compact('comics'));
