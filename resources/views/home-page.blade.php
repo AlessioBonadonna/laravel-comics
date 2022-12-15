@@ -16,10 +16,18 @@
                 @endforeach
             </div>
         </div>
-        <button class="btn btn-primary text-white">LoadMore</button>
+        <button class="btn btn-primary text-white px-5">Load More</button>
 
 
         </div>
+        </div>
+    </section>
+    <section id="blue">
+        <div class="container d-flex justify-content-between p-5">
+            <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}" alt="">
+            <img src="{{ Vite::asset('resources/images/buy-comics-merchandise.png') }}" alt="">
+            <img src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png') }}" alt="">
+            <img src="{{ Vite::asset('resources/images/buy-dc-power-visa.svg') }}" alt="">
         </div>
     </section>
 @endsection
