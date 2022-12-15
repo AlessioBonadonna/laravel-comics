@@ -15,4 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
+Route::get('/single-page', function () {
+    return view('single-page');
+})->name('single-page');
+Route::get('/single-page', function () {
+    return view('home-page');
+})->name('home-page');
