@@ -1,3 +1,7 @@
 <div>
-    sono il footer 
+    <div id="primofoo">
+
+    </div>
+    <div id="secondofoo">
+    </div>
 </div>
