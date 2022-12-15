@@ -22,12 +22,30 @@
         </div>
         </div>
     </section>
-    <section id="blue">
-        <div class="container d-flex justify-content-between p-5">
-            <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}" alt="">
-            <img src="{{ Vite::asset('resources/images/buy-comics-merchandise.png') }}" alt="">
-            <img src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png') }}" alt="">
-            <img src="{{ Vite::asset('resources/images/buy-dc-power-visa.svg') }}" alt="">
+    <section id="blue" class="p-5">
+        <div class="container d-flex justify-content-between align-items-center  text-white">
+            <div class="d-flex align-items-center ms-3">
+                <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}" alt="">
+                <h3 class="ms-2">DC COMICS</h3>
+
+            </div>
+            <div class="d-flex align-items-center ms-3">
+                <img src="{{ Vite::asset('resources/images/buy-comics-merchandise.png') }}" alt="">
+                <h3 class="ms-2">DC Merchandise</h3>
+            </div>
+            <div class="d-flex align-items-center ms-3">
+                <img src="{{ Vite::asset('resources/images/buy-comics-subscriptions.png') }}" alt="">
+                <h3 class="ms-2"> Subscriptions</h3>
+            </div>
+            <div class="d-flex align-items-center ms-3">
+                <img src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png') }}" alt="">
+                <h3 class="ms-2">Comic shop locator</h3>
+            </div>
+            <div class="d-flex align-items-center ms-3">
+                <img src="{{ Vite::asset('resources/images/buy-dc-power-visa.svg') }}" alt="">
+                <h3 class="ms-2">DC power visa</h3>
+            </div>
+
         </div>
     </section>
 @endsection
