@@ -18,7 +18,8 @@ use Illuminate\Support\Facades\Route;
 // })->name('welcome');
 
 Route::get('/single-page', function () {
-    return view('single-page');
+    $comics = config('dc-comics');
+    return view('single-page', compact('comics'));
 })->name('single-page');
 Route::get('/', function () {
     $comics = config('dc-comics');
